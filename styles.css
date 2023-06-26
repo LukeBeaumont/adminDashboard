@@ -1,8 +1,12 @@
+body {
+  margin: 0px;
+}
 .main-container {
   display: grid;
   grid-template-columns: 1fr 4fr;
   grid-template-rows: 1fr 4fr;
   border: 1px solid black;
+  height: 100vh;
 }
 
 .sidebar {
@@ -23,7 +27,7 @@
 
 .content {
   grid-column: 2/4;
-  grid-row: 2\3;
+  grid-row: 2/3;
   border: 2px solid #ffa94d;
   border-radius: 5px;
   background-color: #ffd8a8;
