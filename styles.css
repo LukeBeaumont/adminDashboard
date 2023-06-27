@@ -26,3 +26,7 @@ body {
   grid-row: 2/3;
   background-color: #cbdeea;
 }
+
+.sidebar-nav {
+  display: grid;
+}
