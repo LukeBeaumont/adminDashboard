@@ -40,3 +40,9 @@ body {
   font-size: 20px;
   padding-bottom: 40px;
 }
+
+img {
+  height: 25px;
+  justify-self: center;
+  padding-right: 5px;
+}
