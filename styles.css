@@ -1,5 +1,6 @@
 body {
   margin: 0px;
+  font-weight: 900;
 }
 .main-container {
   display: grid;
@@ -42,6 +43,10 @@ body {
 }
 
 img {
-  height: 30px;
-  padding-right: 5px;
+  height: 20px;
+  padding-right: 10px;
+}
+
+#dash {
+  height: 40px;
 }
