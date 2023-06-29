@@ -2,6 +2,8 @@ body {
   margin: 0px;
   font-weight: 900;
 }
+
+/*-----Sidebar-----*/
 .main-container {
   display: grid;
   grid-template-columns: 1fr 4fr;
@@ -13,7 +15,7 @@ body {
 .sidebar {
   grid-column: 1/2;
   grid-row: 1/3;
-  background-color: #0ea5e9;
+  background-color: #e9ba0e;
   display: grid;
   grid-template-columns: repeat(2, auto);
   grid-template-rows: repeat(17, 1fr);
@@ -51,4 +53,12 @@ img {
 
 #dash {
   height: 30px;
+}
+
+/*-----Header-----*/
+
+input {
+  color: lightgrey;
+  width: 200px;
+  border-radius: 10px;
 }
