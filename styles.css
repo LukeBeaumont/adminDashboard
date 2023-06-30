@@ -76,7 +76,7 @@ span {
 
 .profile-pic {
   height: 35px;
-  justify-self: right;
+  justify-self: center;
   padding-left: 15px;
 }
 
@@ -86,4 +86,19 @@ span {
   grid-template-rows: 1fr 1fr;
   padding: 20px;
   align-items: center;
+}
+
+.profile-pic-main {
+  height: 50px;
+  justify-self: right;
+  padding-right: 20px;
+}
+button {
+  background-color: #fbd343;
+  border-radius: 10px;
+  border: none;
+  height: 25px;
+  width: 80px;
+  justify-self: center;
+  font-family: roboto;
 }
