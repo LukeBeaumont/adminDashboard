@@ -67,3 +67,7 @@ input {
   border-radius: 10px;
   border: none;
 }
+
+.profile-pic {
+  height: 50px;
+}
