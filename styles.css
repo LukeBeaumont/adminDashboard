@@ -36,7 +36,7 @@ body {
 .content {
   grid-column: 2/4;
   grid-row: 2/3;
-  background-color: #cbdeea;
+  background-color: lightgray;
 }
 
 .side-item {
@@ -77,7 +77,6 @@ span {
 .profile-pic {
   height: 35px;
   justify-self: center;
-  padding-left: 15px;
 }
 
 .header {
@@ -101,4 +100,18 @@ button {
   width: 80px;
   justify-self: center;
   font-family: roboto;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.content-item {
+  height: 100px;
+  width: 150px;
+  justify-self: center;
+  align-self: center;
+  background-color: white;
+  border-radius: 5px;
 }
