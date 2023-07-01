@@ -13,7 +13,6 @@ body {
   grid-template-columns: 1fr 4fr;
   grid-template-rows: 1fr 4fr;
   border: 1px solid black;
-  height: 100vh;
 }
 
 .sidebar {
@@ -113,11 +112,13 @@ button {
   flex-wrap: wrap;
   padding-top: 50px;
   padding-bottom: 20px;
+  justify-content: space-around;
+  flex-direction: column;
 }
 
 .content-item {
-  height: 150px;
-  width: 250px;
+  height: 155px;
+  width: 290px;
   background-color: white;
   justify-self: center;
   align-self: center;
@@ -127,14 +128,14 @@ button {
 
 .trending {
   display: flex;
+  flex-direction: column;
   padding-top: 55px;
   padding-bottom: 10px;
-  gap: 15px;
 }
 
 .trending-item {
   height: 270px;
-  width: 100;
+  width: 250px;
   background-color: white;
   justify-self: center;
   align-self: right;
@@ -144,7 +145,7 @@ button {
 
 .followers {
   height: 200px;
-  width: 80%;
+  width: 250px;
   background-color: white;
   justify-self: center;
   align-self: right;
