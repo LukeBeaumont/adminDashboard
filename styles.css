@@ -10,9 +10,13 @@ body {
 /*-----Sidebar-----*/
 .main-container {
   display: grid;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 1fr 5fr;
   grid-template-rows: 1fr 4fr;
-  border: 1px solid black;
+  grid-column: 2/4;
+  grid-row: 2/3;
+  background-color: lightgray;
+  border: 2px solid black;
+  height: 120vh;
 }
 
 .sidebar {
@@ -21,7 +25,7 @@ body {
   background-color: var(--main-yellow);
   display: grid;
   grid-template-columns: repeat(2, auto);
-  grid-template-rows: repeat(17, 1fr);
+  grid-template-rows: repeat(20, 1fr);
   padding: 20px;
   justify-content: left;
 }
@@ -30,12 +34,6 @@ body {
   grid-column: 2/4;
   grid-row: 1/2;
   background-color: white;
-}
-
-.main-container {
-  grid-column: 2/4;
-  grid-row: 2/3;
-  background-color: lightgray;
 }
 
 .side-item {
@@ -101,27 +99,28 @@ button {
   font-family: roboto;
 }
 
-.content-wrapper {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-template-rows: 1fr;
-}
-
 .content {
   display: flex;
+  border: 1px solid black;
+  padding: 20px;
   flex-wrap: wrap;
-  padding-top: 50px;
-  padding-bottom: 20px;
+}
+
+.title {
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
-  flex-direction: column;
+
+  border: 1px solid red;
 }
 
 .content-item {
-  height: 155px;
-  width: 290px;
+  height: 175px;
+  width: 300px;
   background-color: white;
-  justify-self: center;
-  align-self: center;
   box-shadow: 0px 2px 3px rgb(175, 175, 175);
   border-radius: 5px;
   background-image: linear-gradient(
