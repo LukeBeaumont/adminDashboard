@@ -33,7 +33,7 @@ body {
   background-color: white;
 }
 
-.content {
+.main-container {
   grid-column: 2/4;
   grid-row: 2/3;
   background-color: lightgray;
@@ -102,16 +102,23 @@ button {
   font-family: roboto;
 }
 
+.content-wrapper {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr;
+}
+
 .content {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
+  padding-top: 20px;
 }
+
 .content-item {
-  height: 100px;
-  width: 150px;
+  height: 150px;
+  width: 270px;
+  background-color: white;
   justify-self: center;
   align-self: center;
-  background-color: white;
-  border-radius: 5px;
 }
