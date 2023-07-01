@@ -112,7 +112,8 @@ button {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  padding-top: 20px;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 .content-item {
@@ -121,4 +122,24 @@ button {
   background-color: white;
   justify-self: center;
   align-self: center;
+  box-shadow: 0px 2px 3px rgb(175, 175, 175);
+  border-radius: 5px;
+}
+
+.trending {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.trending-item {
+  height: 200px;
+  width: 150px;
+  background-color: white;
+  justify-self: center;
+  align-self: right;
+  box-shadow: 0px 2px 3px rgb(175, 175, 175);
+  border-radius: 5px;
 }
